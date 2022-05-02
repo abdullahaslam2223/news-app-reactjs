@@ -51,7 +51,7 @@ export default class News extends Component {
         let { pageSize } = this.props;
         return (
             <div className="container">
-                <h1 className='text-center my-4'>World News - Top Headlines ({this.props.category[0].toUpperCase() + this.props.category.slice(1)})</h1>
+                <h1 className='text-center mb-4' style={{marginTop: "80px"}}>World News - Top Headlines ({this.props.category[0].toUpperCase() + this.props.category.slice(1)})</h1>
                 <div className='d-flex justify-content-center'>
                     <h5 className='bg-info text-dark p-2 text-center w-25'>{this.state.results} - Results</h5>
                 </div>
